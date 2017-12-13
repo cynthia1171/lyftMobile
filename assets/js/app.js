@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $('.modal').modal();
+
+  $('select').material_select();
 }); 
 
 /** función que hace que despues de que se vea el splash redireccione al index.html */
