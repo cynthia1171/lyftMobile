@@ -1,0 +1,16 @@
+.splash{
+  background: linear-gradient(#76278F, #2B1E66);
+  width: 400px;
+  height: 100vh;
+}
+
+.splash img{
+  width: 60%;
+  margin-top: 35%;
+  margin-left: 20%;
+}
+
+.circulo{
+  margin-left: 42%;
+  margin-top: 15%;
+}
