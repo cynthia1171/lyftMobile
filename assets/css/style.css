@@ -1,3 +1,4 @@
+/* estilos del splash.html */
 .splash{
   background: linear-gradient(#76278F, #2B1E66);
   width: 400px;
@@ -13,4 +14,60 @@
 .circulo{
   margin-left: 42%;
   margin-top: 15%;
+}
+
+/*estilos index.html*/
+.inicio{
+  background-color: #dcc3d1;
+  height: 100vh;
+} 
+
+.inicio img{
+  width: 100%;
+  margin-top: 43%;
+}
+
+.head{
+  width: 100%;
+  height: 15vh;
+}
+
+.head img{
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.botones{
+  margin-top: 16%;
+  margin-left: 10%!important;
+}
+
+/* estilos del registro*/
+.ingreso{
+  margin-top: 20%;
+}
+
+.chevron i{
+  margin-top: 55%;
+  font-size: 4em;
+}
+
+.txt-sign-up{
+  text-align: center;
+  margin-left: -10%!important;
+}
+
+.banderas{
+  width: 61%;
+  height: 32px;
+  margin-left: 26%;
+}
+
+.dig{
+  margin-top: -1%;
+}
+
+.texto{
+  text-align: center;
 }

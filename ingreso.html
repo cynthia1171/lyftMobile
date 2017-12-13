@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lyft Mobile</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <p>Tu código es: LAB-000</p>
+    </div>
+    <div class="modal-footer">
+      <a class="waves-effect modal-close waves-light btn">OK</a>
+    </div>
+  </div>
+
+  <div class="inicio-sesion">
+
+  </div>
+  <div class="registro">
+    <div class="container">
+      <div class="row">
+        <div class="col s2 chevron">
+          <a  href="index.html"><i class="material-icons">chevron_left</i></a>
+        </div>
+        <div class="col s10 txt-sign-up">
+          <h3>Sign up</h3>
+          <p>Join now for free ride credit</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row ingreso">
+        <div class="col s4">
+          <!-- Dropdown Trigger -->
+          <a class='dropdown-button btn' href='#' data-activates='dropdown1'>País</a>
+          
+          <!-- Dropdown Structure -->
+          <ul id='dropdown1' class='dropdown-content'>
+            <li>
+              <a href="#!">
+                <img id="chile" src="assets/img/cl.svg" alt="" class="banderas">
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <img id="mexico" src="assets/img/mx.svg" alt="" class="banderas">
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <img id="peru" src="assets/img/pe.svg" alt="" class="banderas">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col s8">
+          <div class="input-field col s12 dig">
+            <input placeholder="10 dígitos" id="first_name" type="number" class="validate">
+          </div>
+        </div>
+        <p class="col s12 texto">We'll send a text to verify your phone</p>
+      </div>
+      <div class="row">
+        <a class="btn disabled col s12 modal-trigger" href="#modal1">Next</a>
+      </div>
+    </div>
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  
+  $('.modal').modal();
 }); 
 
+/** función que hace que despues de que se vea el splash redireccione al index.html */
 function load(){
   var url = 'index.html';
   /*splash*/
@@ -10,5 +11,5 @@ function load(){
   }, 3000);
   setTimeout(function () {
     $(location).attr('href', 'index.html').fadeIn(500)
-  }, 4000);
+  }, 3000);
 }
