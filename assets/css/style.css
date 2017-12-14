@@ -67,3 +67,16 @@
 .texto{
   text-align: center;
 }
+
+.centrar{
+  text-align: center;
+}
+
+.cortar{
+  width: 10%!important;
+}
+
+.ajuste p{
+  padding-top: 33%;
+  padding-left: 145%;
+}

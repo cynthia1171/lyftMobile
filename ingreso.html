@@ -17,7 +17,7 @@
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <p>Tu código es: LAB-000</p>
+      <p>Tu código es: LAB-<span id="num"></span></p>
     </div>
     <div class="modal-footer">
       <a class="waves-effect modal-close waves-light btn">OK</a>
@@ -43,20 +43,20 @@
         <div class="input-field col s5">
           <select class="icons">
             <option value="" disabled selected>País</option>
-            <option value="" data-icon="assets/img/cl.svg" class="circle">Chile</option>
-            <option value="" data-icon="assets/img/mx.svg" class="circle">México</option>
-            <option value="" data-icon="assets/img/pe.svg" class="circle">Perú</option>
+            <option value="chile" data-icon="assets/img/cl.svg" class="left circle">Chile</option>
+            <option value="mexico" data-icon="assets/img/mx.svg" class="left circle">México</option>
+            <option value="peru" data-icon="assets/img/pe.svg" class="left circle">Perú</option>
           </select>
         </div>
         <div class="col s7">
           <div class="input-field">
-            <input placeholder="10 dígitos" id="first_name" type="number" class="validate">
+            <input placeholder="10 dígitos" id="telephone" type="number" data-length="10" class="validate">
           </div>
         </div>
         <p class="col s12 texto">We'll send a text to verify your phone</p>
       </div>
     <div class="row">
-      <a class="btn disabled col s12 modal-trigger" href="#modal1">Next</a>
+      <a class="btn disabled col s12 modal-trigger" href="#modal1" id="next">Next</a>
     </div>
   </div>
 </div>
