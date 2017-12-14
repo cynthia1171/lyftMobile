@@ -38,11 +38,11 @@ $('#next').click(function(){
 $('#cod').keyup(function () {
   var num = $('#cod').val();
   if (num.length == 3) {
-    $('#resend').removeClass('disabled');
+    $('#next2').removeClass('disabled');
   } else if (num.length > 3) {
-    $('#resend').addClass('disabled');
+    $('#next2').addClass('disabled');
   } else if (num.length < 3) {
-    $('#resend').addClass('disabled');
+    $('#next2').addClass('disabled');
   }
 });
 

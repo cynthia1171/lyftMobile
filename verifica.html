@@ -14,6 +14,19 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- modal -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <p>Tu código es: LAB-
+        <span id="num"></span>
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a  class="waves-effect modal-close waves-light btn" id="cod-ok">OK</a>
+    </div>
+  </div>
+  <!-- modal -->
+
   <div class="container">
     <div class="row">
       <div class="col s2 chevron">
@@ -34,7 +47,10 @@
         </div>
       </div>
       <div class="row">
-        <a class="btn disabled col s12" href="inicio-sesion.html" id="resend">Resend code</a>
+        <a class="btn col s12 modal-trigger" href="#modal1" id="resend">Resend code</a>
+      </div>
+      <div class="row">
+        <a class="btn disabled col s12" href="inicio-sesion.html" id="next2">Next</a>
       </div>
     </div>
   </div>
