@@ -1,7 +1,7 @@
 /* estilos del splash.html */
 .splash{
   background: linear-gradient(#76278F, #2B1E66);
-  width: 400px;
+  width: 450px;
   height: 100vh;
 }
 
@@ -56,6 +56,7 @@
 .txt-sign-up{
   text-align: center;
   margin-left: -10%!important;
+  padding-left: 18%;
 }
 
 .banderas{
@@ -73,10 +74,23 @@
 }
 
 .cortar{
-  width: 10%!important;
+  width: 45%!important;
+  border: none;
+  border-bottom: 1px solid #000;
+  text-align: center;
 }
 
 .ajuste p{
   padding-top: 33%;
   padding-left: 145%;
+}
+
+.tit-sign-up{
+  padding-top: 18%;
+  text-align: center;
+}
+
+/*fondo modal success*/
+#success{
+  background-image: url(../img/fondo-success.png);
 }

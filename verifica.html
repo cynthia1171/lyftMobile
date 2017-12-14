@@ -15,6 +15,13 @@
 </head>
 <body>
   <div class="container">
+    <div class="row">
+      <div class="col s2 chevron">
+        <a href="ingreso.html">
+          <i class="material-icons">chevron_left</i>
+        </a>
+      </div>
+    </div>
     <div class="row centrar">
       <h3>Verify phone number</h3>
       <h5>Join now for free ride credit</h5>
@@ -23,10 +30,11 @@
           <p>LAB:</p>
         </div>
         <div class="input-field inline col s6">
-          <input id="cod1" type="text" class="cortar">
-          <input id="cod2" type="text" class="cortar">
-          <input id="cod3" type="text" class="cortar">
+          <input id="cod" type="text" class="cortar" maxlength="3">
         </div>
+      </div>
+      <div class="row">
+        <a class="btn disabled col s12" href="inicio-sesion.html" id="resend">Resend code</a>
       </div>
     </div>
   </div>

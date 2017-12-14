@@ -34,3 +34,26 @@ $('#next').click(function(){
   document.getElementById("num").innerHTML = x;
 }); 
   
+/**funcion para validar si los caracteres del input contiene 3 digitos */
+$('#cod').keyup(function () {
+  var num = $('#cod').val();
+  if (num.length == 3) {
+    $('#resend').removeClass('disabled');
+  } else if (num.length > 3) {
+    $('#resend').addClass('disabled');
+  } else if (num.length < 3) {
+    $('#resend').addClass('disabled');
+  }
+});
+
+/**funcion para habilitar y deshabilitar boton de inicio de sesion */
+$('#password').keyup(function(){
+  var first = $('#first_name').val();
+  var last = $('#last_name').val();
+  var pass = $('#password').val();
+  if(first.length > 0 && last.length > 0 && pass.length > 0){
+    $('#enviar').removeClass('disabled');
+    $('#enviar').addClass('enabled');
+    
+  }
+});
