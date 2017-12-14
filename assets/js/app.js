@@ -47,10 +47,10 @@ $('#cod').keyup(function () {
 });
 
 /**funcion para habilitar y deshabilitar boton de inicio de sesion */
-$('#password').keyup(function(){
+$('#email').keyup(function(){
   var first = $('#first_name').val();
   var last = $('#last_name').val();
-  var pass = $('#password').val();
+  var pass = $('#email').val();
   if(first.length > 0 && last.length > 0 && pass.length > 0){
     $('#enviar').removeClass('disabled');
     $('#enviar').addClass('enabled');
